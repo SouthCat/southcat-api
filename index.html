@@ -5,11 +5,11 @@
 	<link href="assets/img/favicon.png" rel="icon" type="image/png" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>南方的猫｜API发布站</title>
 	<META name="keywords" content="API,免费API,免费API分享,API分享网站,免费API分享网站"><META name="description" content="每日更新免费API,API,免费API,免费API分享,API分享网站,免费API分享网站"><meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' /><meta name="viewport" content="width=device-width" />
-	<link href="https://cdn.aicey.net/ssr/bootstrap.css" rel="stylesheet" />
-	<link href="https://cdn.aicey.net/ssr/gsdk.css" rel="stylesheet" />
-	<link href="https://cdn.aicey.net/ssr/demo.css" rel="stylesheet" /><!--     Font Awesome     -->
-	<link href="https://cdn.aicey.net/ssr/font-awesome.css" rel="stylesheet" />
-	<link href="https://cdn.aicey.net/ssr/1866ccdcb0d148f1bbbefcc959eb61ff.css" rel="stylesheet" type="text/css" />
+	<link href="assets/bootstarp.css" rel="stylesheet" />
+	<link href="assets/gsdk.css" rel="stylesheet" />
+	<link href="assets/demo.css" rel="stylesheet" /><!--     Font Awesome     -->
+	<link href="assets/font-awesome.css" rel="stylesheet" />
+	<link href="assets/1866ccdcb0d148f1bbbefcc959eb61ff.css" rel="stylesheet" type="text/css" />
 </head>
 
 
@@ -41,15 +41,15 @@
 
 <div id="buttons">
 <div class="tim-title">
-<h3>API<small> </small></h3>
+<h3>API 目前api暂且分开使用后期整合到一起并加入用户系统，请注意更换。<small> </small></h3>
 </div>
 
 <div class="row tim-row" data-class="btn-info" id="display-buttons">
-<div class="col-md-3 col-sm-6"><a class="btn btn-danger btn-fill btn-block" href="https://southcat.net/api">API</a></div>
+<div class="col-md-3 col-sm-6"><a class="btn btn-danger btn-fill btn-block" href="https://github.com/t01oey/southcat-api">Github</a></div>
 
 <div class="col-md-3 col-sm-6"><a class="btn btn-warning  btn-block" href="http://southcat.net">进入南方的猫</a></div>
 
-<div class="col-md-3 col-sm-6"><a class="btn btn-info btn-block" href="https://api.aicey.net/yiyan">一言(站长自收集词库)</a></div>
+<div class="col-md-3 col-sm-6"><a class="btn btn-info btn-block" href="https://api.southcat.net/yiyan">一言(站长自收集词库)</a></div>
 
 <div class="col-md-3 col-sm-6"><a class="btn btn-info btn-block" href="https://api.southcat.net/url">链接防洪</a></div>
 
@@ -103,8 +103,18 @@
 	<li><small>请求参数:接口:code</small></li>
       <li><small>参数:1.js(返回:你的ip是:xxx)</small></li>
       <li><small>2.js-txt(只返回ip)</small></li>
-	<li><small>调用距离-JavaScript+HTML<pre><code>&lt;script type="text/javascript" src="https://api.southcat.net/ip/?code=js"&gt;&lt;/script&gt;&lt;script&gt;scip()&lt;/script&gt;</code></pre></small></li>
+	<li><small>调用举例-JavaScript+HTML<pre><code>&lt;script type="text/javascript" src="https://api.southcat.net/ip/?code=js"&gt;&lt;/script&gt;&lt;script&gt;scip()&lt;/script&gt;</code></pre></small></li>
+		</a>
+		</div>
 		
+			<div class="col-md-3 col-sm-6"><a class="btn btn-info btn-block">
+	<li>短网址API</li>
+	<li><small>请求地址:https://api.southcat.net/url/dwz.php</small></li>
+	<li><small>请求方式:GET</small></li>
+	<li><small>请求参数:接口:longurl</small></li>
+      <li><small>参数:url</small></li>
+	<li><small>调用举例<pre><code>GET:https://api.southcat.net/url/dwz.php?longurl=southcat.net</br>返回:{"code":1,"ae_url":"http:\/\/t.cn\/RR9rd8S"}
+	</code></pre></small></li>
 		</a>
 		</div>
 		
